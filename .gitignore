@@ -1,0 +1,8 @@
+*.exe
+*.out
+*.in
+*.sol
+*.template
+*.ans
+*.gen
+*.test
