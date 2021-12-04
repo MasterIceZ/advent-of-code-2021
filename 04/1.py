@@ -5,24 +5,12 @@ a = []
 for i in now:
     a.append(int(i))
 print(a)
-# 120 bingos
 
 bingos = []
 current_sum = []
 
 def win(a):
     cnt = 0
-#    for i in range(5):
-#        if a[i][i] == -1:
-#            cnt += 1
-#    if cnt == 5:
-#        return True
-#    cnt = 0
-#    for i in range(5):
-#        if a[i][5 - i - 1] == -1:
-#            cnt += 1
-#    if cnt == 5:
-#        return True
     for i in range(5):
         cnt = 0
         for j in range(5):

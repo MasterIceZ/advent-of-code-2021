@@ -5,7 +5,6 @@ a = []
 for i in now:
     a.append(int(i))
 print(a)
-# 120 bingos
 
 bingos = []
 current_sum = []
